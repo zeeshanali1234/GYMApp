@@ -1,0 +1,21 @@
+.form-div{
+    padding-top: 90px;
+}
+.anchorLink{
+    margin-right:10px;
+}
+.footer-cls{
+    padding-bottom: 0%;
+}
+.example-container {
+    position: absolute;
+    left: 0;
+    height:496px;
+    width: 400px;
+    background:rgb(196, 201, 207);
+  }
+  .nav-span{
+    text-align: center;
+    display: inline-block;
+    height:100%;
+  }
