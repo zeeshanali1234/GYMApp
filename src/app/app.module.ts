@@ -15,6 +15,7 @@ import {RouterModule} from '@angular/router';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {CommonModuleForAll} from './CommonCompnents/common.module';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { CandidatecommoduleModule } from './CandidateManagement/candidatecommodule/candidatecommodule.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     RouterModule,
     MatToolbarModule,
     CommonModuleForAll,
-    MatSidenavModule
+    MatSidenavModule,
+    CandidatecommoduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
