@@ -21,8 +21,10 @@ export class LoginComponent implements OnInit {
     }
     goToCandidateDashB(userName,uPassword) : void{
       if(userName=="zeeshan"){
-        alert("hi");
-        this._router.navigate(['/candidatehomepage'])
+        //alert("hi");
+        this._router.navigate(['/candidatehomepage']);
+      }else{
+        this._router.navigate(['/adminhomepage'])
       }
       console.log(userName+"userName "+uPassword);
     }
